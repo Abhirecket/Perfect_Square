@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../perfect_square.srcs/sources_1/new/perfect_square.v" \
+"../../../../perfect_square.srcs/sim_1/new/tb_perfect_square.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
